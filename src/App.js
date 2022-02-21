@@ -5,7 +5,6 @@ import axios from "axios";
 import ReactGA from "react-ga4";
 // ReactGA.initialize("UA-221024268-1");
 ReactGA.initialize("G-85G9QPGZMB");
-ReactGA.send("event");
 
 function App() {
   // rga4.default.initialize("your GA measurement id");
@@ -45,6 +44,11 @@ function App() {
             category: "category C",
             action: "action C",
             label: "label C",
+          });
+          ReactGA.send({
+            hitType: "event",
+            eventCategory: "category C",
+            eventAction: "action C",
           });
         }}
       >
