@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 // const rga4 = require("react-ga4");
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 ReactGA.initialize("304540515");
 
 function App() {
