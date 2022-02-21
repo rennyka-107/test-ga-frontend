@@ -50,6 +50,10 @@ function App() {
             eventCategory: "category C",
             eventAction: "action C",
           });
+          window.gtag("event", "haha", {
+            event_label: gtagLabel,
+            event_category: gtagCategory,
+          });
         }}
       >
         click C
