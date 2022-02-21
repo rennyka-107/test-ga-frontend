@@ -14,7 +14,7 @@ function App() {
               category: "category A",
               action: "action A",
               label: "label A",
-              gaId: 304540515,
+              gaId: "304540515",
             })
             .then((res) => console.log(res));
         }}
@@ -28,7 +28,7 @@ function App() {
               category: "category B",
               action: "action B",
               label: "label B",
-              gaId: 304540515,
+              gaId: "304540515",
             })
             .then((res) => console.log(res));
         }}
