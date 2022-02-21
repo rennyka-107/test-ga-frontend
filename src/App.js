@@ -51,8 +51,8 @@ function App() {
             eventAction: "action C",
           });
           window.gtag("event", "haha", {
-            event_label: gtagLabel,
-            event_category: gtagCategory,
+            event_label: "label C",
+            event_category: "category C",
           });
         }}
       >
