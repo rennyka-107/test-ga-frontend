@@ -2,6 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 // const rga4 = require("react-ga4");
+import ReactGA from "react-ga";
+ReactGA.initialize("304540515");
 
 function App() {
   // rga4.default.initialize("your GA measurement id");
@@ -34,6 +36,17 @@ function App() {
         }}
       >
         click B
+      </button>
+      <button
+        onClick={() => {
+          ReactGA.event({
+            category: "category C",
+            action: "action C",
+            label: "label C",
+          });
+        }}
+      >
+        click C
       </button>
     </div>
   );
