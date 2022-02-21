@@ -10,7 +10,7 @@ function App() {
       <button
         onClick={() => {
           axios
-            .post("http://localhost:4000/tracking", {
+            .post("https://test-ga-backend.herokuapp.com/tracking", {
               category: "category A",
               action: "action A",
               label: "label A",
@@ -24,7 +24,7 @@ function App() {
       <button
         onClick={() => {
           axios
-            .post("http://localhost:4000/tracking", {
+            .post("https://test-ga-backend.herokuapp.com/tracking", {
               category: "category B",
               action: "action B",
               label: "label B",
