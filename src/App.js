@@ -3,7 +3,7 @@ import "./App.css";
 import axios from "axios";
 // const rga4 = require("react-ga4");
 import ReactGA from "react-ga";
-ReactGA.initialize("UA-221024268");
+ReactGA.initialize("UA-221024268-1");
 
 function App() {
   // rga4.default.initialize("your GA measurement id");
