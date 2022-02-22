@@ -40,19 +40,19 @@ function App() {
       </button>
       <button
         onClick={() => {
-          ReactGA.event({
-            category: "category C",
-            action: "action C",
-            label: "label C",
-          });
-          ReactGA.send({
-            hitType: "event",
-            eventCategory: "category C",
-            eventAction: "action C",
-          });
-          window.gtag("event", "haha", {
-            event_label: "label C",
-            event_category: "category C",
+          // ReactGA.event({
+          //   category: "category C",
+          //   action: "action C",
+          //   label: "label C",
+          // });
+          // ReactGA.send({
+          //   hitType: "event",
+          //   eventCategory: "category C",
+          //   eventAction: "action C",
+          // });
+          window.gtag("event", "hohohohoho", {
+            event_label: "label D",
+            event_category: "category D",
           });
         }}
       >
